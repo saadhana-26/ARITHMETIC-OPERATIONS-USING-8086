@@ -19,7 +19,9 @@ To write and execute Assembly Language Programs to perform arithmetic operations
 8. Stop.
 ## FLOW CHART
 <img width="707" height="1024" alt="image" src="https://github.com/user-attachments/assets/b5a7062d-e294-47cd-9683-a40de25e82de" />
+
 #### Program
+
 ```asm
 CODE SEGMENT
 ASSUME CS: CODE, DS: CODE
@@ -39,6 +41,7 @@ INT 21H
 CODE ENDS
 END
 ```
+
 #### Output Table
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
@@ -49,11 +52,12 @@ END
 1204                      |9C
 1205                      |8A    |
 #### Manual Calculations
-(Add your calculation here)
 <img width="544" height="569" alt="image" src="https://github.com/user-attachments/assets/b4436208-0201-4e14-87f1-1ca870ea75e1" />
 ---
+
 ## OUTPUT IMAGE FROM MASM SOFTWARE
 <img width="621" height="425" alt="image" src="https://github.com/user-attachments/assets/1a52e5d2-fa72-465c-b6c2-c903871a38b4" />
+
 ## 2. SUBTRACTION
 #### Algorithm
 1. Initialize memory and store 1st data.
@@ -64,6 +68,7 @@ END
 ## FLOWCHART
 <img width="578" height="797" alt="image" src="https://github.com/user-attachments/assets/564c3c7a-33ce-4a1c-8920-beb5c24b9b47" />
 #### Program
+
 ```asm
 CODE SEGMENT
 ASSUME CS: CODE, DS: CODE
@@ -84,7 +89,6 @@ CODE ENDS
 END
 ```
 
-
 #### Output Table
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
@@ -101,6 +105,7 @@ END
 ---
 ## OUTPUT SCREEN FROM MASM SOFTWARE
 <img width="640" height="427" alt="image" src="https://github.com/user-attachments/assets/f9963563-b9b8-4439-a54d-9f09ca6a3f55" />
+
 ## 3. MULTIPLICATION
 #### Algorithm
 1. Initialize memory and store operands.
@@ -110,6 +115,7 @@ END
 ##FLOWCHART
 <img width="569" height="906" alt="image" src="https://github.com/user-attachments/assets/88be88ff-2896-4a88-b73d-84ccffd2fcf9" />
 #### Program
+
 ```asm
 CODE SEGMENT
 ASSUME CS: CODE, DS: CODE
@@ -126,6 +132,7 @@ INT 21H
 CODE ENDS
 END
 ```
+
 #### Output Table
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
@@ -141,6 +148,7 @@ END
 ---
 ## OUTPUT SCREEN FROM MASM SOFTWARE
 <img width="652" height="442" alt="image" src="https://github.com/user-attachments/assets/66ae064d-a934-4172-87c5-226022fb5b7f" />
+
 ## 4. DIVISION
 #### Algorithm
 1. Load memory location of operands.
@@ -149,6 +157,7 @@ END
    ## FLOWCHART
 <img width="1065" height="802" alt="image" src="https://github.com/user-attachments/assets/25b4a483-0d42-494b-8639-1af3ea17191b" />
 #### Program
+
 ```asm
 CODE SEGMENT
 ASSUME CS: CODE, DS: CODE
@@ -165,6 +174,7 @@ INT 21H
 CODE ENDS
 END
 ```
+
 #### Output Table
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
